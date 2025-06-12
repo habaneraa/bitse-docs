@@ -1,5 +1,6 @@
 site_name: BITSE 文档小站
-site_url: https://habaneraa.github.io/bitse-docs
+site_url: https://habaneraa.github.io/bitse-docs/
+site_author: habaneraa
 theme:
   name: material
   language: zh
@@ -50,6 +51,11 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
 
 plugins:
   - mkdocs-pdf
