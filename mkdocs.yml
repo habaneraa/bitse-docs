@@ -1,0 +1,62 @@
+site_name: BITSE 文档小站
+site_url: http://10.108.119.92:3000/lab-docs/
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    # - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Noto Sans
+    code: Noto Sans Mono
+
+repo_url: https://github.com/habaneraa/bitse-docs
+repo_name: habaneraa/bitse-docs
+
+nav:
+  - 首页: 
+    - 欢迎: welcome.md
+    - 友情链接: links.md
+    - 如何贡献: contributing.md
+  - 研究方向:
+      - 重构组: research/refactoring_group.md
+      - 测试组: research/testing_group.md
+      - 漏洞组: research/vulnerability_group.md
+  - 工作流:
+      - 实验室服务器: workflow/lab_servers.md
+      - Overleaf: workflow/overleaf.md
+      - 本地大模型: workflow/local_llm.md
+  - 知识共享:
+      - 批量调用大模型: share/batch_llm.md
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+
+plugins:
+  - mkdocs-pdf
+  - git-revision-date-localized:
+    locale: zh
+    timezone: Asia/Shanghai
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/your-lab
