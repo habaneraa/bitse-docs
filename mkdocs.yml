@@ -1,5 +1,5 @@
 site_name: BITSE 文档小站
-site_url: http://10.108.119.92:3000/lab-docs/
+site_url: https://habaneraa.github.io/lab-docs/
 theme:
   name: material
   language: zh
