@@ -54,8 +54,8 @@ markdown_extensions:
 plugins:
   - mkdocs-pdf
   - git-revision-date-localized:
-    locale: zh
-    timezone: Asia/Shanghai
+      locale: zh
+      timezone: Asia/Shanghai
 # extra:
 #   social:
 #     - icon: fontawesome/brands/github
