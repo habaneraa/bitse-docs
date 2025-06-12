@@ -3,7 +3,7 @@
 为了方便课题组使用开源 LLM，充分利用服务器资源，我们在服务器上长期部署了 [Ollama](https://ollama.com/) + [Open WebUI](https://github.com/open-webui/open-webui) 实例。
 
 - Ollama 实例位于 11434 端口，可使用 CLI `ollama` 直接使用，或通过 HTTP 访问裸 API
-- OpenWebUI 实例位于 8001 端口，可使用浏览器直接访问 [http://10.108.119.92:8001](http://10.108.119.92:8001)
+- OpenWebUI 实例位于 8001 端口，可使用浏览器直接访问 (注意使用 http 而非 https)
 
 经同学反馈，模型部署有时会出现永久卡死的情况，在此提供一些解决方案：
 

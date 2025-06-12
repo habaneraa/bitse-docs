@@ -1,13 +1,5 @@
-# BITSE 课题组文档站
+# BITSE Docs
 
-使用 Docker 预览站点
+[站点链接](https://habaneraa.github.io/bitse-docs/welcome/)
 
-```bash
-docker run --rm -it -p 3000:80 --name bitse-docs -v ${PWD}:/docs squidfunk/mkdocs-material
-```
-
-使用 Docker 构建
-
-```bash
-docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
-```
+文档使用 [Material for MkDocs](https://github.com/squidfunk/mkdocs-material) 构建
