@@ -1,5 +1,5 @@
 site_name: BITSE 文档小站
-site_url: https://habaneraa.github.io/bitse-docs/
+site_url: https://habaneraa.github.io/bitse-docs
 theme:
   name: material
   language: zh
@@ -27,7 +27,7 @@ repo_url: https://github.com/habaneraa/bitse-docs
 repo_name: habaneraa/bitse-docs
 
 nav:
-  - 首页: 
+  - 首页:
     - 欢迎: welcome.md
     - 友情链接: links.md
     - 如何贡献: contributing.md
@@ -56,6 +56,7 @@ plugins:
   - git-revision-date-localized:
       locale: zh
       timezone: Asia/Shanghai
+
 # extra:
 #   social:
 #     - icon: fontawesome/brands/github
