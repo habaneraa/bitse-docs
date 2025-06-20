@@ -23,6 +23,7 @@ theme:
   font:
     text: Noto Sans
     code: Noto Sans Mono
+  custom_dir: overrides
 
 repo_url: https://github.com/habaneraa/bitse-docs
 repo_name: habaneraa/bitse-docs
