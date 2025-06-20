@@ -40,6 +40,7 @@ nav:
       - 实验室服务器: workflow/lab_servers.md
       - Overleaf: workflow/overleaf.md
       - 本地大模型: workflow/local_llm.md
+      - 应对 GPU 服务器的过热问题: workflow/gpu_monitoring.md
   - 知识共享:
       - 批量调用大模型: share/batch_llm.md
 
