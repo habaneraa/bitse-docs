@@ -41,6 +41,7 @@ nav:
       - Overleaf: workflow/overleaf.md
       - 本地大模型: workflow/local_llm.md
       - 应对 GPU 服务器的过热问题: workflow/gpu_monitoring.md
+      - 缺陷库实践: workflow/bug_datasets.md
   - 知识共享:
       - 批量调用大模型: share/batch_llm.md
 
