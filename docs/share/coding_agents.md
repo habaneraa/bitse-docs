@@ -35,11 +35,6 @@ Codex CLI 设计了三种“许可模式”，表示不同的自主等级，第�
 | **Auto Edit**             | <li>Read **and** apply-patch writes to files                                                        | <li>**All** shell commands                                                                      |
 | **Full Auto**             | <li>Read/write files <li> Execute shell commands (network disabled, writes limited to your workdir) | -                                                                                               |
 
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-注：我的一个问题和一个修改需求，大约花费了Deepseek 1分钱左右的API开销
 
 ## Claude Code
 

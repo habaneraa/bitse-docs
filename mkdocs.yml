@@ -29,7 +29,7 @@ repo_name: habaneraa/bitse-docs
 
 nav:
   - 首页:
-    - 欢迎: welcome.md
+    - 欢迎: index.md
     - 友情链接: links.md
     - 如何贡献: contributing.md
   - 研究方向:
