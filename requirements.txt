@@ -1,0 +1,3 @@
+mkdocs-material==9.6.14
+mkdocs-pdf
+mkdocs-git-revision-date-localized-plugin
